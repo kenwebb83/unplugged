@@ -338,6 +338,15 @@
     text-align: center;
     margin: 0;
   }
+
+  .features h2 {
+    margin-bottom: 20px;
+  }
+  
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
   
   /* Reviews */
   
@@ -593,9 +602,6 @@
   
     /* Features */
   
-    .features h2 {
-      margin-bottom: 20px;
-    }
   
     .features article {
       display: flex;
@@ -608,6 +614,8 @@
     .features .features-item-description {
       width: 62%;
     }
+
+   
   
     /* Reviews */
     .reviews article {
