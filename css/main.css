@@ -113,6 +113,8 @@
   ul, 
   ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
    
   a {
@@ -124,6 +126,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.875em;
+    margin: 0;
   }
    
   h3, 
@@ -348,10 +351,6 @@
     margin: 0;
   }
 
-  .features h2 {
-    margin-bottom: 20px;
-  }
-
   .features i {
     font-size: 3.75em;
     margin-bottom: 40px;
@@ -445,6 +444,7 @@
   
   .faq-content {
     margin-bottom: 50px;
+    line-height: 1.333;
   }
   
   .faq-content h4 {
@@ -625,8 +625,6 @@
     .features .features-item-description {
       width: 62%;
     }
-
-   
   
     /* Reviews */
     .reviews article {
